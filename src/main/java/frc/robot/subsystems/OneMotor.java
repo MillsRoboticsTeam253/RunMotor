@@ -33,6 +33,8 @@ public class OneMotor implements Subsystem {
         conveyorMotor = createSparkMAX(0, CANSparkMaxLowLevel.MotorType.kBrushless);
         
          */
+
+        register();
     }
     
     public static double deadbandX(double input, double deadband) {
